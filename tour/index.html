@@ -1,14 +1,36 @@
 <html>
 	<head>
 		<title>Tours - Hub City Fitness</title>
-		<style>
-			body {
-				background: black;
-				color: white;
-			}
-		</style>
+		<link type="text/javascript" src="index.js" />
+		<link type="text/css" rel="stylesheet" href="index.css" />
 	</head>
 	<body>
-		<div>Tours</div>
+		<div class="column" id="header-container">
+			<div id="logo">
+				<div class="logo-contents">Hub</div>
+				<div class="logo-contents">City</div>
+				<div class="logo-contents">Fitness</div>
+			</div>
+			<div id="header">Hub City Fitness</div>
+		</div>
+		<div class="column" id="left-column">
+			<form id="sign-up">
+				<div class="input-container">
+					<label class="input-label" id="name-lbl">Full Name:</label>
+					<input id="name" type="text" />
+				</div>
+				<div class="input-container">
+					<label class="input-label" id="phone-number-lbl">Phone Number:</label>
+					<input id="phone-number" type="text" />
+				</div>
+				<input class="submit" id="sign-up-submit" type="submit" value="Sign-up for a tour" />
+			</form>
+		</div>
+		<div class="column" id="right-column">
+			
+		</div>
+		<div class="column" id="footer-container">
+			<div>Footer</div>
+		</div>
 	</body>
 </html>
