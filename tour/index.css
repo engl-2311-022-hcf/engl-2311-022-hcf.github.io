@@ -47,7 +47,6 @@ a {
 	height: 80%;
 	top: 10%;
 	right: 0px;
-	background: url("res/images/login-right-column.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
@@ -85,6 +84,12 @@ a {
 	display: flex;
 }
 
+#slideshow-container {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
 
 /* header */
 #header {
@@ -105,4 +110,31 @@ a {
 .logo-contents {
 	background: #00000000;
 	/*text-shadow: 3px 1px 1px black;*/
+}
+
+/* slideshow */
+.slideshow-button {
+	background: white;
+	height: 100%;
+	width: 10%;
+	position: inherit;
+	z-index: 10;
+}
+
+#slideshow-button-left {
+	float: left;
+}
+
+#slideshow-image {
+	background: red;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+#slideshow-button-right {
+	float: right;
 }
