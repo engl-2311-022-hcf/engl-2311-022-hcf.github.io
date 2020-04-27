@@ -131,6 +131,7 @@ a {
 	border-bottom-right-radius: 0%;
 	border-top-right-radius: 50% 60%;
 	border-bottom-left-radius: 20% 30%;
+	cursor: pointer;
 }
 
 .logo-contents {

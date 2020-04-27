@@ -1,5 +1,6 @@
 var member = document.getElementById("member-submit");
 var employee = document.getElementById("employee-submit");
+var logo = document.getElementById("logo");
 
 addListeners();
 
@@ -16,6 +17,10 @@ function addListeners() {
 		employee.onclick = function (e) {
 			e.preventDefault();
 			window.location.href = 'http://' + location.host + '/employee';
+		}
+		
+		logo.onclick = function (e) {
+			window.location.href = 'http://' + location.host + '/';
 		}
 	}
 }

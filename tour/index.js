@@ -2,6 +2,22 @@ var ssLeft = document.getElementById('slideshow-button-left');
 var ssRight = document.getElementById('slideshow-button-right');
 var ssImg = document.getElementById('slideshow-image');
 
+var logo = document.getElementById("logo");
+
+addListeners();
+
+function addListeners() {
+	if (!logo) {
+		setTimeout(addListeners, 100);
+	} else {
+		logo.onclick = function (e) {
+			window.location.href = 'http://' + location.host + '/';
+		}
+	}
+}
+
+
+
 const images = [
 	"gettyimages-1040504660-170667a.jpg",
 	"gettyimages-1129133338-170667a.jpg",
