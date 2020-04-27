@@ -19,7 +19,7 @@ fs.readdir(dir, function (err, files) {
 	}
 });
 
-//app.use(express.static(__dirname + '/'));
+app.use(express.static(__dirname + '/'));
 
 app.get('/*', function(req, res) {
 	console.log(req.path);
