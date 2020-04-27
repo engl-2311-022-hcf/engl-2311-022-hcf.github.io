@@ -181,7 +181,7 @@ a {
 	display: flex;
 	text-align: left;
 	background: #00000000;
-	text-size: .7em;
+	font-size: .7em;
 }
 
 .machine {
@@ -215,6 +215,7 @@ a {
 .scale {
 	display: -webkit-box;
 	background: #00000000;
+	font-size: .7em;
 }
 
 .scale-label {
