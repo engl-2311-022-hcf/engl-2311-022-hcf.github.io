@@ -144,3 +144,15 @@ input {
 	height: 100%;
 	width: 40%;
 }
+
+#twitter-feed {
+	height: 80%;
+	width: 60%;
+	top: 5%;
+	left: 20%;
+	position: relative;
+	background: url("res/images/twitter-feed.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
