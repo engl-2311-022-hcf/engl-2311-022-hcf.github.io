@@ -215,7 +215,6 @@ a {
 .scale {
 	display: -webkit-box;
 	background: #00000000;
-	font-size: .7em;
 }
 
 .scale-label {
@@ -226,7 +225,6 @@ a {
 #total {
 	color: #71f371;
 	margin-bottom: 2%;
-	font-size: .7em;
 }
 
 #low {
