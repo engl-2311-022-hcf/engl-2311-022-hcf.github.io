@@ -125,6 +125,14 @@ a {
 	border-bottom-left-radius: 10% 60%;
 }
 
+.submit:hover {
+	cursor: pointer;
+}
+
+#prices {
+	cursor: default;
+}
+
 label {
 	text-align: right;
 	height: 100%;
