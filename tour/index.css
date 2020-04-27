@@ -12,6 +12,9 @@ body {
 div {
 	background: black;
 	color: white;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
 }
 
 form {
@@ -47,9 +50,6 @@ a {
 	height: 80%;
 	top: 10%;
 	right: 0px;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
 }
 
 /* containers */
@@ -114,7 +114,7 @@ a {
 
 /* slideshow */
 .slideshow-button {
-	background: white;
+	background: #ffffff38;
 	height: 100%;
 	width: 10%;
 	position: inherit;
@@ -126,15 +126,32 @@ a {
 }
 
 #slideshow-image {
-	background: black;
 	position: absolute;
 	width: 100%;
 	height: 100%;
+}
+
+#slideshow-button-right {
+	float: right;
+}
+
+.arrow {
+	position: relative;
+	top: 40%;
+	width: 100%;
+	height: 10%;
+}
+
+#left-arrow {
+	background: url("res/left-arrow.png");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 }
 
-#slideshow-button-right {
-	float: right;
+#right-arrow {
+	background: url("res/right-arrow.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
 }
