@@ -68,6 +68,8 @@ a {
 	height: 10%;
 	bottom: 0px;
 	text-align: center;
+	padding-top: 1%;
+	font-size: .8em;
 }
 
 .right-column-container {
