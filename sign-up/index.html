@@ -1,6 +1,6 @@
-<html>
+ <html>
 	<head>
-		<title>Tours - Hub City Fitness</title>
+		<title>Hub City Fitness</title>
 		<link type="text/css" rel="stylesheet" href="index.css" />
 	</head>
 	<body>
@@ -13,28 +13,23 @@
 			<div id="header">Hub City Fitness</div>
 		</div>
 		<div class="column" id="left-column">
-			<form action="../" id="sign-up">
+			<form id="login">
 				<div class="input-container">
-					<label class="input-label" id="name-lbl">Full Name:</label>
-					<input id="name" type="text" />
+					<label class="input-label" id="username-lbl" class="login-lbl" for="username">Username:</label>
+					<input id="username" type="text" />
 				</div>
 				<div class="input-container">
-					<label class="input-label" id="phone-number-lbl">Phone Number:</label>
-					<input id="phone-number" type="text" />
+					<label class="input-label" id="password-lbl" class="login-lbl" for="password">Password:</label>
+					<input id="password" type="password" />
 				</div>
-				<input class="submit" id="sign-up-submit" type="submit" value="Sign-up for a tour" />
+				<input class="submit" id="member-submit" type="submit" value="Member Login" />
+				<input class="submit" id="employee-submit" type="submit" value="Employee Login" />
 			</form>
-			<a id="prices" href="../prices">Click here to see prices!!!</a>
 		</div>
 		<div class="column" id="right-column">
-			<div id="slideshow-container" class="right-column-container">
-				<div id="slideshow-button-left" class="slideshow-button">
-					<div id="left-arrow" class="arrow"></div>
-				</div>
-				<div id="slideshow-image"></div>
-				<div id="slideshow-button-right" class="slideshow-button">
-					<div id="right-arrow" class="arrow"></div>
-				</div>
+			<div class="right-column-container" id="bottom">
+				<a id="tour" href="tour">Click here to schedule a visit</a>
+				<a id="prices" href="prices">Click here to see prices</a>
 			</div>
 		</div>
 		<div class="column" id="footer-container" style="padding-top: 2%;">
@@ -44,4 +39,4 @@
 		</div>
 		<script type="text/javascript" src="index.js"></script>
 	</body>
-</html>
+ </html>

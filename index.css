@@ -130,10 +130,6 @@ a {
 	cursor: pointer;
 }
 
-#prices {
-	cursor: default;
-}
-
 label {
 	text-align: right;
 	height: 100%;
