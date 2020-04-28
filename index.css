@@ -159,6 +159,29 @@ input {
 	overflow-x: hidden;
 }
 
+#twitter-container-header {
+	display: flex;
+}
+
+#twitter-header-lbl {
+	width: 50%;
+}
+
+#twitter-logo {
+	width: 10%;
+	background: url("res/images/twitter-logo.png");
+	background-position: top left;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	width: 10%;
+	cursor: pointer;
+}
+
+#twitter-follow-btn {
+	background: red;
+	cursor: pointer;
+}
+
 .tweet-container {
 	border-bottom: solid gray 1px;
 	margin-top: 2%;
