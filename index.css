@@ -145,14 +145,89 @@ input {
 	width: 40%;
 }
 
-#twitter-feed {
+/* twitter-feed */
+#twitter-feed-container {
 	height: 80%;
 	width: 40%;
 	top: 5%;
 	left: 20%;
 	position: relative;
-	background: url("res/images/twitter-feed.png");
-	background-position: center;
+	background: white;
+	font-family: sans-serif;
+	font-size: .8em;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+.tweet-container {
+	border-bottom: solid gray 1px;
+	margin-top: 2%;
+}
+
+.twitter {
+	background: white;
+	color: black;
+	word-wrap: initial;
+}
+
+.tweet-header {
+	display: flex;
+	margin-bottom: 1.5%;
+}
+
+.tweet-body {
+	margin-bottom: 1.5%;
+}
+
+.twitter-profile-pic {
+	background: red;
+	width: 15%;
+	position: relative;
+	border-top-left-radius: 0%;
+	border-bottom-right-radius: 0%;
+	border-top-right-radius: 50% 60%;
+	border-bottom-left-radius: 20% 30%;
+	margin-right: 2%;
+}
+
+.twitter-account {
+	text-align: right;
+	margin-right: 2%;
+}
+
+.twitter-verified-logo {
+	background: url("res/images/twitter-verified.png");
+	background-position: top left;
 	background-repeat: no-repeat;
-	background-size: 100% 100%;
+	background-size: 100% 40%;
+	width: 10%;
+}
+
+.tweet-timestamp {
+	width: 100%;
+	text-align: right;
+	padding-right: 5%;
+	color: gray;
+}
+
+.tpp-text {
+	background: #00000000;
+}
+
+.hashtag {
+	color: #24aaf9;
+}
+
+.twitter-account-name {
+	font-weight: bold;
+}
+
+.twitter-account-id {
+	color: gray;
+	font-style: italic;
+}
+
+.tweet-footer {
+	color: gray;
+	margin-bottom: 1.5%;
 }
